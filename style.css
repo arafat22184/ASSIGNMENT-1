@@ -591,3 +591,44 @@ td {
   border: 1px solid var(--btn);
   cursor: pointer;
 }
+
+/* FOOTER STYLES */
+
+.footer {
+  background-color: var(--boxbg);
+  width: 100%;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  color: var(--title);
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 32px;
+}
+
+.footer-hr {
+  height: 1px;
+  background-color: rgba(14, 14, 14, 0.1);
+  border: none;
+  text-align: center;
+  width: 1122px;
+  margin-bottom: 32px;
+}
+
+.footer-icons-container {
+  display: flex;
+  gap: 23px;
+}
+
+.socialMediaIcons:hover {
+  border: 10px solid var(--btn);
+  border-radius: 50%;
+  padding: 5px;
+  transition: 0.3s;
+}
