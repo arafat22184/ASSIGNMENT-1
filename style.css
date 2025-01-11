@@ -614,7 +614,6 @@ td {
 
 .footer-hr {
   height: 1px;
-  /* background-color: rgba(14, 14, 14, 0.1); */
   background-color: var(--border);
   border: none;
   text-align: center;
