@@ -307,7 +307,7 @@ body {
 .future-vision-container {
   background-image: url(assets/quote-bg.png);
   background-repeat: no-repeat;
-  border: 1px solid var(--boxbg);
+  padding-top: 10px;
   margin: 25px 24px 48px 24px;
 }
 
